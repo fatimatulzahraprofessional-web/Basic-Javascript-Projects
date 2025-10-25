@@ -1,0 +1,55 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   transition: all 0.2s ease;
+   background-color: aqua;
+}
+.container{
+    background-color: #333;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light{
+    background-color: #000;
+    border-radius: 100%;
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: all 0.2s ease;
+    margin: 0.5rem;
+}
+.light.active{
+    background-color: var(--light-color);
+    box-shadow: 0px 0px 20px 5px var(--light-color);
+}
+.light.light1{
+    --light-color:#00FFFC;
+}
+.light.light2{
+    --light-color:#FC00FF;
+}
+
+.light.light3{
+    --light-color:#fffc00;
+}
+.light.light4{
+    --light-color:green;
+}
+.light.light5{
+    --light-color:orange;
+}
+.light.light6{
+    --light-color:purple;
+}

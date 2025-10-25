@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    background-color: rgb(243, 201, 222);
+    width: 440px;
+    height: 340px;
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    font-size: 14px;
+}
+p{
+    text-align: center;
+    margin: 3px;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+.resultParas{
+    padding: 10px;
+}
+#guessfield{
+    display: flex;
+    align-items: center;
+   margin-left: 100px;
+}
+#submit{
+    margin-left: 140px;
+    width: 80px;
+    background-color: rgb(243, 201, 222);
+    border: 3px solid white;
+    border-radius: 8px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#submit:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

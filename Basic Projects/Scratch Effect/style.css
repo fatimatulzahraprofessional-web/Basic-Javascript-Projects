@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background: repeating-linear-gradient(
+      0deg,
+      #fff 0%,
+      #fff 50%,
+      #000 50%,
+      #000 100%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #aaa 0%,
+      red 50%,
+      red 50%,
+      #555 100%
+    );
+  background-size: 10px 10px;
+  background-blend-mode: difference;
+  cursor: grab;
+}
+
+span {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+  border-radius: 50%;
+  background: #333 url(https://cdn.pixabay.com/photo/2021/10/27/09/05/leaves-6746513_1280.png);
+  background-size: contain;
+  background-attachment: fixed;
+}
