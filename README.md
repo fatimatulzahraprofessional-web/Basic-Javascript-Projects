@@ -30,5 +30,5 @@ Perfect for beginners who want to learn by doing and understand how JavaScript b
 ### 💡 How to Use
 Clone the repo and open any project folder in your browser:
 ```bash
-git clone https://github.com/your-username/basic-javascript-projects.git
+git clone https://github.com/fatimatulzahraprofessional-web/basic-javascript-projects.git
 
